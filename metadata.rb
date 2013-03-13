@@ -27,7 +27,7 @@ recommends "runit", "<= 0.16.2"
 attribute "nginx/dir",
   :display_name => "Nginx Directory",
   :description => "Location of nginx configuration files",
-  :default => "/etc/nginx"
+  :default => "/vagrant"
 
 attribute "nginx/log_dir",
   :display_name => "Nginx Log Directory",
